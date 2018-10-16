@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+$open-sans: 'Open Sans', 'Helvetica', sans-serif;
+
+<!-- https://fontawesome.com/icons?d=gallery -->
+
+
+table {
+	text-align: center;
+	border-collapse:collapse
+	
+}
+
+html, p, input, button {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.panel-heading {
+	font-family: 'Titillium Web', sans-serif;	
+}
+
+.col-sm-6 {
+	text-align: center;
+}
+
+a {
+	font-family: 'Titillium Web', sans-serif;	
+}
+
+.ladderButton {
+	text-align: center;
+}
+
+.logo {
+	text-align: center;
+}
+
+td {
+	width: 130px;
+	text-align: center;
+	border-bottom: 1pt solid gray;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+th {
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h5 {
+	text-align: center;
+	display: table-row;
+}
+
+form {
+	padding-left: 0px;
+}
+label {
+	font-size: 15px; 
+	font-family: 'Titillium Web', sans-serif;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 85px;
+}
+
+
+
+radio {
+	font-family: 'Titillium Web', sans-serif;
+	margin-bottom: 0px;
+	margin-top: -1px;
+	padding-left: 15px;
+  	vertical-align: middle;
+  	height: 100%;
+}
+
+
+.tips {
+	display: table;
+	font-family: 'Titillium Web', sans-serif;
+	margin-left: 3px; 
+}
+
+img {
+	
+}
+
+.btn {
+  display: inline-block;
+  min-width: 80px;
+  margin: 15px 5px;
+  padding: 10px 15px 12px;
+  font: 700 12px/1;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 1px rgba(0,0,0,.1), inset 0 -10px 20px rgba(0,0,0,.1);
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn.pri {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+}
+
+.set.blue .btn.pri { 
+	background: #59d ;
+	text-decoration: none; 
+	margin-left: 60px;
+	}
+.set.green .btn.pri { 
+	background: #6b6; 
+	text-decoration: none; 
+	margin-left: 60px;
+}
+
+.set.blue .btn.pri:hover { background: #48c }
+.set.green .btn.pri:hover { background: #5a5 }
+
+.btn.pri.ico {
+  position: relative;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.btn.pri.ico:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 30px;
+  padding: 10px 0 12px;
+  font-family: fontawesome;
+  text-align: center;
+  border-radius: 3px 0 0 3px;
+  background: rgba(0,0,0,.15);
+}
+
+.set.blue .btn.pri.ico:before { content: '\f054' }
+.set.green .btn.pri.ico:before { content: '\f00c' }
+

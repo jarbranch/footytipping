@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+$open-sans: 'Open Sans', 'Helvetica', sans-serif;
+
+<!-- https://fontawesome.com/icons?d=gallery -->
+
+.mainFooter {
+	
+}
+
+.mainDiv {
+	background-color: white;
+}
